@@ -17,7 +17,7 @@ const Dashboard = () => {
                     <li><a href='/dashboard/review'>Review</a></li>
                     <li><a href='/dashboard/orderList'>Order List</a></li>
                     <li><a href='/dashboard/addService'>Add service</a></li>
-                    <li><a href='dashboard/makeAdmin'>Make admin</a></li>
+                    <li><a href='/dashboard/makeAdmin'>Make admin</a></li>
                 </ul>
 
             </div>
