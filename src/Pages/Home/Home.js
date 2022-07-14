@@ -22,11 +22,11 @@ const Home = () => {
                 <h2 className='font-bold text-xl text-gray-500'>Projects</h2>
                 <h2 className='text-4xl font-bold'>Discover latest Interior Design <br />available today</h2>
             </div>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div className="col-span-1">
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 shadow-xl">
                         <figure class="">
-                            <img src={House1} alt="Shoes" class="rounded-xl" />
+                            <img src={House1} alt="Shoes" className="rounded-t-lg w-full" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Villa on Washington Avenue</h2>
@@ -35,9 +35,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-span-1">
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 shadow-xl">
                         <figure class="">
-                            <img src={House2} alt="Shoes" class="rounded-xl" />
+                            <img src={House2} alt="Shoes" class="rounded-t-lg w-full" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Villa on Washington Avenue</h2>
@@ -46,9 +46,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-span-1">
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card bg-base-100 shadow-xl">
                         <figure class="">
-                            <img src={House3} alt="Shoes" class="rounded-xl" />
+                            <img src={House3} alt="Shoes" class="rounded-t-lg w-full" />
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">Villa on Washington Avenue</h2>

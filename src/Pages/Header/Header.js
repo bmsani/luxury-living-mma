@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../Utility/Image_Icon/Image/Group 33069.png'
 
 const Header = () => {
     return (
@@ -16,7 +17,9 @@ const Header = () => {
                             <li><Link to='login'>login</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl" href='/'>daisyUI</a>
+                    <a className="btn btn-ghost normal-case text-xl" href='/'>
+                        <img className='w-24' src={logo} alt="" />
+                    </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
