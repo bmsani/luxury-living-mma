@@ -14,7 +14,7 @@ const Dashboard = () => {
                 <ul className="menu p-4 overflow-y-auto w-full bg-base-100 text-base-content">
                     {/* <!-- Sidebar content here --> */}
                     <li><a href='/dashboard'>Book</a></li>
-                    <li><a href='review'>Review</a></li>
+                    <li><a href='/review'>Review</a></li>
                     <li><a href='orderList'>Order List</a></li>
                     <li><a href='addService'>Add service</a></li>
                     <li><a href='makeAdmin'>Make admin</a></li>
