@@ -26,11 +26,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    
-                    <div className="drawer-content flex flex-col items-center justify-center">
-                        {/* <!-- Page content here --> */}
-                        <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
-                    </div>
+                    <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Dashboard bar</label>
                 </div>
             </div>
         </div>

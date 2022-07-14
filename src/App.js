@@ -17,13 +17,13 @@ function App() {
       <Routes>
       <Route path='/' element={<Home></Home>}></Route>
       <Route path='login' element={<Login></Login>}></Route>
-        <Route path='dashboard' element={<Dashboard>
+        <Route path='dashboard' element={<Dashboard></Dashboard>}>
           <Route path='book' element={<PaymentGetway></PaymentGetway>}></Route>
           <Route path='review' element={<Review></Review>}></Route>
           <Route path='orderList' element={<OrderList></OrderList>}></Route>
           <Route path='addService' element={<AddService></AddService>}></Route>
           <Route path='makeAdmin' element={<MakeAdmin></MakeAdmin>}></Route>
-        </Dashboard>}></Route>
+        </Route>
       </Routes>
     </div>
   );
